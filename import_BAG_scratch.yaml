@@ -1,0 +1,50 @@
+lib_name: gpdk045_microtemplates_dense
+cell_name: pmos4_fast_tap
+rects:
+  1:
+    layer: prBoundary boundary
+    bBox: [[0.000000, 0.000000], [1.025000, 1.000000]]
+  2:
+    layer: Metal1 label
+    bBox: [[0.575000, 0.235000], [0.655000, 0.595000]]
+  3:
+    layer: Metal1 label
+    bBox: [[0.370000, 0.235000], [0.450000, 0.595000]]
+  4:
+    layer: Nwell drawing
+    bBox: [[0.000000, 0.000000], [1.025000, 1.000000]]
+labels:
+  1:
+    label: TAP1
+    layer: Metal1 label
+    xy: [0.615000, 0.410000]
+  2:
+    label: TAP0
+    layer: Metal1 label
+    xy: [0.410000, 0.410000]
+instances:
+  I5:
+    lib_name: gpdk045_microtemplates_dense
+    cell_name: pmos4_fast_space
+    xy: [0.820000, 0.000000]
+    rotation: R0
+  I4:
+    lib_name: gpdk045_microtemplates_dense
+    cell_name: pmos4_fast_space
+    xy: [0.615000, 0.000000]
+    rotation: R0
+  I2:
+    lib_name: gpdk045_microtemplates_dense
+    cell_name: pmos4_fast_space
+    xy: [0.205000, 0.000000]
+    rotation: R0
+  I1:
+    lib_name: gpdk045_microtemplates_dense
+    cell_name: pmos4_fast_space
+    xy: [0.000000, 0.000000]
+    rotation: R0
+  I3:
+    lib_name: gpdk045_microtemplates_dense
+    cell_name: _pmos4_fast_base_tap
+    xy: [0.410000, 0.000000]
+    rotation: R0

@@ -1,0 +1,754 @@
+gpdk045_microtemplates_dense:
+  placement_basic:
+    type: placement
+    xgrid:
+    - 0
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 0.1
+    ygrid:
+    - 0
+  route_M1_M2_basic:
+    type: route
+    viamap:
+      via_M1_M2_0:
+      - 0
+      - 0
+    xcolor:
+    - not MPT
+    xgrid:
+    - 0.0
+    xlayer:
+    - - Metal1
+      - drawing
+    xwidth:
+    - 0.08
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 0.15
+    ycolor:
+    - not MPT
+    ygrid:
+    - 0.0
+    ylayer:
+    - - Metal2
+      - drawing
+    ywidth:
+    - 0.08
+  route_M1_M2_cmos:
+    type: route
+    viamap:
+      via_M1_M2_0:
+      - - 0
+        - 1
+      - - 0
+        - 2
+      - - 0
+        - 3
+      - - 0
+        - 4
+      - - 0
+        - 5
+      - - 0
+        - 6
+      - - 0
+        - 7
+      via_M1_M2_1:
+      - 0
+      - 0
+    xcolor:
+    - not MPT
+    xgrid:
+    - 0.0
+    xlayer:
+    - - Metal1
+      - drawing
+    xwidth:
+    - 0.08
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 2.0
+    ycolor:
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    ygrid:
+    - 0.0
+    - 0.34
+    - 0.49
+    - 0.79
+    - 1.0
+    - 1.21
+    - 1.51
+    - 1.66
+    ylayer:
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    ywidth:
+    - 0.24
+    - 0.08
+    - 0.08
+    - 0.08
+    - 0.08
+    - 0.08
+    - 0.08
+    - 0.08
+  route_M1_M2_cmos_flipped:
+    type: route
+    viamap:
+      via_M1_M2_0:
+      - - 0
+        - 0
+      - - 0
+        - 1
+      - - 0
+        - 2
+      - - 0
+        - 3
+      - - 0
+        - 5
+      - - 0
+        - 6
+      - - 0
+        - 7
+      via_M1_M2_1:
+      - 0
+      - 4
+    xcolor:
+    - not MPT
+    xgrid:
+    - 0.0
+    xlayer:
+    - - Metal1
+      - drawing
+    xwidth:
+    - 0.08
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 2.0
+    ycolor:
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    ygrid:
+    - 0.0
+    - 0.21
+    - 0.51
+    - 0.66
+    - 1.0
+    - 1.34
+    - 1.49
+    - 1.79
+    ylayer:
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    ywidth:
+    - 0.08
+    - 0.08
+    - 0.08
+    - 0.08
+    - 0.24
+    - 0.08
+    - 0.08
+    - 0.08
+  route_M1_M2_mos:
+    type: route
+    viamap:
+      via_M1_M2_0:
+      - - 0
+        - 1
+      - - 0
+        - 2
+      - - 0
+        - 3
+      via_M1_M2_1:
+      - 0
+      - 0
+    xcolor:
+    - not MPT
+    xgrid:
+    - 0.0
+    xlayer:
+    - - Metal1
+      - drawing
+    xwidth:
+    - 0.08
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+    ycolor:
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    ygrid:
+    - 0.0
+    - 0.34
+    - 0.49
+    - 0.79
+    ylayer:
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    ywidth:
+    - 0.24
+    - 0.08
+    - 0.08
+    - 0.08
+  route_M2_M3_basic:
+    type: route
+    viamap:
+      via_M2_M3_0:
+      - 0
+      - 0
+    xcolor:
+    - not MPT
+    xgrid:
+    - 0.0
+    xlayer:
+    - - Metal3
+      - drawing
+    xwidth:
+    - 0.08
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 0.15
+    ycolor:
+    - not MPT
+    ygrid:
+    - 0.0
+    ylayer:
+    - - Metal2
+      - drawing
+    ywidth:
+    - 0.08
+  route_M2_M3_cmos:
+    type: route
+    viamap:
+      via_M2_M3_0:
+      - - 0
+        - 1
+      - - 0
+        - 2
+      - - 0
+        - 3
+      - - 0
+        - 4
+      - - 0
+        - 5
+      - - 0
+        - 6
+      - - 0
+        - 7
+      via_M2_M3_1:
+      - 0
+      - 0
+    xcolor:
+    - not MPT
+    xgrid:
+    - 0.0
+    xlayer:
+    - - Metal3
+      - drawing
+    xwidth:
+    - 0.08
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 2.0
+    ycolor:
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    ygrid:
+    - 0.0
+    - 0.34
+    - 0.49
+    - 0.79
+    - 0.995
+    - 1.21
+    - 1.51
+    - 1.66
+    ylayer:
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    ywidth:
+    - 0.24
+    - 0.08
+    - 0.08
+    - 0.08
+    - 0.08
+    - 0.08
+    - 0.08
+    - 0.08
+  route_M2_M3_cmos_flipped:
+    type: route
+    viamap:
+      via_M2_M3_0:
+      - - 0
+        - 0
+      - - 0
+        - 1
+      - - 0
+        - 2
+      - - 0
+        - 3
+      - - 0
+        - 5
+      - - 0
+        - 6
+      - - 0
+        - 7
+      via_M2_M3_1:
+      - 0
+      - 4
+    xcolor:
+    - not MPT
+    xgrid:
+    - 0.0
+    xlayer:
+    - - Metal3
+      - drawing
+    xwidth:
+    - 0.08
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 2.0
+    ycolor:
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    ygrid:
+    - -0.005
+    - 0.21
+    - 0.51
+    - 0.66
+    - 1.0
+    - 1.34
+    - 1.49
+    - 1.79
+    ylayer:
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    ywidth:
+    - 0.08
+    - 0.08
+    - 0.08
+    - 0.08
+    - 0.24
+    - 0.08
+    - 0.08
+    - 0.08
+  route_M2_M3_cmos_flipped_thick:
+    type: route
+    viamap:
+      via_M2_M3_1:
+      - 0
+      - 4
+      via_M2_M3_2:
+      - - 0
+        - 0
+      - - 0
+        - 1
+      - - 0
+        - 2
+      - - 0
+        - 3
+      - - 0
+        - 5
+      - - 0
+        - 6
+      - - 0
+        - 7
+    xcolor:
+    - not MPT
+    xgrid:
+    - 0.0
+    xlayer:
+    - - Metal3
+      - drawing
+    xwidth:
+    - 0.24
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.41
+    - 2.0
+    ycolor:
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    ygrid:
+    - -0.005
+    - 0.21
+    - 0.51
+    - 0.66
+    - 1.0
+    - 1.34
+    - 1.49
+    - 1.79
+    ylayer:
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    ywidth:
+    - 0.08
+    - 0.08
+    - 0.08
+    - 0.08
+    - 0.24
+    - 0.08
+    - 0.08
+    - 0.08
+  route_M2_M3_cmos_thick:
+    type: route
+    viamap:
+      via_M2_M3_1:
+      - 0
+      - 0
+      via_M2_M3_2:
+      - - 0
+        - 1
+      - - 0
+        - 2
+      - - 0
+        - 3
+      - - 0
+        - 4
+      - - 0
+        - 5
+      - - 0
+        - 6
+      - - 0
+        - 7
+    xcolor:
+    - not MPT
+    xgrid:
+    - 0.0
+    xlayer:
+    - - Metal3
+      - drawing
+    xwidth:
+    - 0.24
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.41
+    - 2.0
+    ycolor:
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    ygrid:
+    - 0.0
+    - 0.34
+    - 0.49
+    - 0.79
+    - 0.995
+    - 1.21
+    - 1.51
+    - 1.66
+    ylayer:
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    ywidth:
+    - 0.24
+    - 0.08
+    - 0.08
+    - 0.08
+    - 0.08
+    - 0.08
+    - 0.08
+    - 0.08
+  route_M2_M3_mos:
+    type: route
+    viamap:
+      via_M2_M3_0:
+      - - 0
+        - 1
+      - - 0
+        - 2
+      - - 0
+        - 3
+      via_M2_M3_1:
+      - 0
+      - 0
+    xcolor:
+    - not MPT
+    xgrid:
+    - 0.0
+    xlayer:
+    - - Metal3
+      - drawing
+    xwidth:
+    - 0.08
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+    ycolor:
+    - not MPT
+    - not MPT
+    - not MPT
+    - not MPT
+    ygrid:
+    - 0.0
+    - 0.34
+    - 0.49
+    - 0.79
+    ylayer:
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    ywidth:
+    - 0.24
+    - 0.08
+    - 0.08
+    - 0.08
+  route_M2_M3_thick:
+    type: route
+    viamap:
+      via_M2_M3_1:
+      - 0
+      - 0
+    xcolor:
+    - not MPT
+    xgrid:
+    - 0.0
+    xlayer:
+    - - Metal3
+      - drawing
+    xwidth:
+    - 0.24
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.41
+    - 1.0
+    ycolor:
+    - not MPT
+    ygrid:
+    - 0.0
+    ylayer:
+    - - Metal2
+      - drawing
+    ywidth:
+    - 0.24
+  route_M2_M3_thick_basic:
+    type: route
+    viamap:
+      via_M2_M3_1:
+      - - 0
+        - 0
+      - - 0
+        - 1
+    xcolor:
+    - not MPT
+    xgrid:
+    - 0.0
+    xlayer:
+    - - Metal3
+      - drawing
+    xwidth:
+    - 0.08
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+    ycolor:
+    - not MPT
+    - not MPT
+    ygrid:
+    - 0.26
+    - 0.74
+    ylayer:
+    - - Metal2
+      - drawing
+    - - Metal2
+      - drawing
+    ywidth:
+    - 0.24
+    - 0.24
+  route_M3_M4_basic:
+    type: route
+    viamap:
+      via_M3_M4_0:
+      - 0
+      - 0
+    xcolor:
+    - not MPT
+    xgrid:
+    - 0.0
+    xlayer:
+    - - Metal3
+      - drawing
+    xwidth:
+    - 0.08
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 0.15
+    ycolor:
+    - not MPT
+    ygrid:
+    - 0.0
+    ylayer:
+    - - Metal4
+      - drawing
+    ywidth:
+    - 0.08

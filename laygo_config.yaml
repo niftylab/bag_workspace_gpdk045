@@ -1,0 +1,37 @@
+#default_laygo_config file
+metal_layers: #metal layers
+- [Metal0, donotuse]
+- [Metal1, drawing]
+- [Metal2, drawing]
+- [Metal3, drawing]
+- [Metal4, drawing]
+- [Metal5, drawing]
+- [Metal6, drawing]
+- [Metal7, drawing]
+- [Metal8, drawing]
+- [Metal9, drawing]
+via_layers: #via layers
+- [Via0, donotuse]
+- [Via1, drawing]
+- [Via2, drawing]
+- [Via3, drawing]
+- [Via4, drawing]
+- [Via5, drawing]
+- [Via6, drawing]
+- [Via7, drawing]
+- [Via8, drawing]
+pin_layers: #pin layers
+- [text, drawing]
+- [Metal1, label]
+- [Metal2, label]
+- [Metal3, label]
+- [Metal4, label]
+- [Metal5, label]
+- [Metal6, label]
+- [Metal7, label]
+- [Metal8, label]
+- [Metal9, label]
+prboundary_layer: [prBoundary, boundary] #boundary layer
+tech_lib: gpdk045
+text_layer: [text, drawing]
+physical_resolution: 0.001

@@ -1,0 +1,1047 @@
+gpdk045_microtemplates_dense:
+  _gate_base_nf1_left:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.0
+    - 0.0
+  _gate_base_nf1_right:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.0
+    - 0.0
+  _gate_base_nf2:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.0
+    - 0.0
+  _gate_dmy_base_nf2:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.0
+    - 0.0
+  _nmos4_fast_base_nf1:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  _nmos4_fast_base_tap:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  _pmos4_fast_base_nf1:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  _pmos4_fast_base_tap:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  momcap_center_1x:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 3.075
+    - 0.3
+  nmos4_fast_boundary:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  nmos4_fast_center_2stack:
+    pins:
+      D0:
+        layer:
+        - Metal1
+        - label
+        netname: D0
+        xy0:
+        - 0.37
+        - 0.235
+        xy1:
+        - 0.45
+        - 0.595
+      G0:
+        layer:
+        - Metal1
+        - label
+        netname: G0
+        xy0:
+        - -0.04
+        - 0.73
+        xy1:
+        - 0.09
+        - 0.85
+      G1:
+        layer:
+        - Metal1
+        - label
+        netname: G1
+        xy0:
+        - 0.32
+        - 0.73
+        xy1:
+        - 0.45
+        - 0.85
+      S0:
+        layer:
+        - Metal1
+        - label
+        netname: S0
+        xy0:
+        - -0.04
+        - 0.235
+        xy1:
+        - 0.04
+        - 0.595
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.41
+    - 1.0
+  nmos4_fast_center_nf1_left:
+    pins:
+      D0:
+        layer:
+        - Metal1
+        - label
+        netname: D0
+        xy0:
+        - 0.165
+        - 0.235
+        xy1:
+        - 0.245
+        - 0.595
+      G0:
+        layer:
+        - Metal1
+        - label
+        netname: G0
+        xy0:
+        - -0.04
+        - 0.73
+        xy1:
+        - 0.09
+        - 0.85
+      S0:
+        layer:
+        - Metal1
+        - label
+        netname: S0
+        xy0:
+        - -0.04
+        - 0.235
+        xy1:
+        - 0.04
+        - 0.595
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  nmos4_fast_center_nf1_right:
+    pins:
+      D0:
+        layer:
+        - Metal1
+        - label
+        netname: D0
+        xy0:
+        - 0.165
+        - 0.235
+        xy1:
+        - 0.245
+        - 0.595
+      G0:
+        layer:
+        - Metal1
+        - label
+        netname: G0
+        xy0:
+        - 0.115
+        - 0.73
+        xy1:
+        - 0.245
+        - 0.85
+      S0:
+        layer:
+        - Metal1
+        - label
+        netname: S0
+        xy0:
+        - -0.04
+        - 0.235
+        xy1:
+        - 0.04
+        - 0.595
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  nmos4_fast_center_nf2:
+    pins:
+      D0:
+        layer:
+        - Metal1
+        - label
+        netname: D0
+        xy0:
+        - 0.165
+        - 0.235
+        xy1:
+        - 0.245
+        - 0.595
+      G0:
+        layer:
+        - Metal1
+        - label
+        netname: G0
+        xy0:
+        - 0.115
+        - 0.73
+        xy1:
+        - 0.295
+        - 0.85
+      S0:
+        layer:
+        - Metal1
+        - label
+        netname: S0
+        xy0:
+        - -0.04
+        - 0.235
+        xy1:
+        - 0.04
+        - 0.595
+      S1:
+        layer:
+        - Metal1
+        - label
+        netname: S1
+        xy0:
+        - 0.37
+        - 0.235
+        xy1:
+        - 0.45
+        - 0.595
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.41
+    - 1.0
+  nmos4_fast_dmy_nf2:
+    pins:
+      D0:
+        layer:
+        - Metal1
+        - label
+        netname: D0
+        xy0:
+        - 0.165
+        - 0.235
+        xy1:
+        - 0.245
+        - 0.595
+      G0:
+        layer:
+        - Metal1
+        - label
+        netname: G0
+        xy0:
+        - 0.115
+        - 0.73
+        xy1:
+        - 0.295
+        - 0.85
+      S0:
+        layer:
+        - Metal1
+        - label
+        netname: S0
+        xy0:
+        - -0.04
+        - 0.235
+        xy1:
+        - 0.04
+        - 0.595
+      S1:
+        layer:
+        - Metal1
+        - label
+        netname: S1
+        xy0:
+        - 0.37
+        - 0.235
+        xy1:
+        - 0.45
+        - 0.595
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.41
+    - 1.0
+  nmos4_fast_left:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  nmos4_fast_right:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  nmos4_fast_space:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  nmos4_fast_space_1x:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  nmos4_fast_space_2x:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.41
+    - 1.0
+  nmos4_fast_space_4x:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.84
+    - 1.0
+  nmos4_fast_space_nf2:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.41
+    - 1.0
+  nmos4_fast_space_nf4:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.84
+    - 1.0
+  nmos4_fast_tap:
+    pins:
+      TAP0:
+        layer:
+        - Metal1
+        - label
+        netname: TAP0
+        xy0:
+        - 0.37
+        - 0.235
+        xy1:
+        - 0.45
+        - 0.595
+      TAP1:
+        layer:
+        - Metal1
+        - label
+        netname: TAP1
+        xy0:
+        - 0.575
+        - 0.235
+        xy1:
+        - 0.655
+        - 0.595
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 1.025
+    - 1.0
+  ntap_fast_boundary:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  ntap_fast_center_nf1:
+    pins:
+      TAP0:
+        layer:
+        - Metal1
+        - label
+        netname: TAP0
+        xy0:
+        - -0.04
+        - 0.235
+        xy1:
+        - 0.04
+        - 0.595
+      TAP1:
+        layer:
+        - Metal1
+        - label
+        netname: TAP1
+        xy0:
+        - 0.165
+        - 0.235
+        xy1:
+        - 0.245
+        - 0.595
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  ntap_fast_center_nf2:
+    pins:
+      TAP0:
+        layer:
+        - Metal1
+        - label
+        netname: TAP0
+        xy0:
+        - -0.04
+        - 0.235
+        xy1:
+        - 0.04
+        - 0.595
+      TAP1:
+        layer:
+        - Metal1
+        - label
+        netname: TAP1
+        xy0:
+        - 0.165
+        - 0.235
+        xy1:
+        - 0.245
+        - 0.595
+      TAP2:
+        layer:
+        - Metal1
+        - label
+        netname: TAP2
+        xy0:
+        - 0.37
+        - 0.235
+        xy1:
+        - 0.45
+        - 0.595
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.41
+    - 1.0
+  ntap_fast_left:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  ntap_fast_right:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  ntap_fast_space:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  ntap_fast_space_nf2:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.41
+    - 1.0
+  ntap_fast_space_nf4:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.82
+    - 1.0
+  pmos4_fast_boundary:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  pmos4_fast_center_2stack:
+    pins:
+      D0:
+        layer:
+        - Metal1
+        - label
+        netname: D0
+        xy0:
+        - 0.37
+        - 0.235
+        xy1:
+        - 0.45
+        - 0.595
+      G0:
+        layer:
+        - Metal1
+        - label
+        netname: G0
+        xy0:
+        - -0.04
+        - 0.73
+        xy1:
+        - 0.09
+        - 0.85
+      G1:
+        layer:
+        - Metal1
+        - label
+        netname: G1
+        xy0:
+        - 0.32
+        - 0.73
+        xy1:
+        - 0.45
+        - 0.85
+      S0:
+        layer:
+        - Metal1
+        - label
+        netname: S0
+        xy0:
+        - -0.04
+        - 0.235
+        xy1:
+        - 0.04
+        - 0.595
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.41
+    - 1.0
+  pmos4_fast_center_nf1_left:
+    pins:
+      D0:
+        layer:
+        - Metal1
+        - label
+        netname: D0
+        xy0:
+        - 0.165
+        - 0.235
+        xy1:
+        - 0.245
+        - 0.595
+      G0:
+        layer:
+        - Metal1
+        - label
+        netname: G0
+        xy0:
+        - -0.04
+        - 0.73
+        xy1:
+        - 0.09
+        - 0.85
+      S0:
+        layer:
+        - Metal1
+        - label
+        netname: S0
+        xy0:
+        - -0.04
+        - 0.235
+        xy1:
+        - 0.04
+        - 0.595
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  pmos4_fast_center_nf1_right:
+    pins:
+      D0:
+        layer:
+        - Metal1
+        - label
+        netname: D0
+        xy0:
+        - 0.165
+        - 0.235
+        xy1:
+        - 0.245
+        - 0.595
+      G0:
+        layer:
+        - Metal1
+        - label
+        netname: G0
+        xy0:
+        - 0.115
+        - 0.73
+        xy1:
+        - 0.245
+        - 0.85
+      S0:
+        layer:
+        - Metal1
+        - label
+        netname: S0
+        xy0:
+        - -0.04
+        - 0.235
+        xy1:
+        - 0.04
+        - 0.595
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  pmos4_fast_center_nf2:
+    pins:
+      D0:
+        layer:
+        - Metal1
+        - label
+        netname: D0
+        xy0:
+        - 0.165
+        - 0.235
+        xy1:
+        - 0.245
+        - 0.595
+      G0:
+        layer:
+        - Metal1
+        - label
+        netname: G0
+        xy0:
+        - 0.115
+        - 0.73
+        xy1:
+        - 0.295
+        - 0.85
+      S0:
+        layer:
+        - Metal1
+        - label
+        netname: S0
+        xy0:
+        - -0.04
+        - 0.235
+        xy1:
+        - 0.04
+        - 0.595
+      S1:
+        layer:
+        - Metal1
+        - label
+        netname: S1
+        xy0:
+        - 0.37
+        - 0.235
+        xy1:
+        - 0.45
+        - 0.595
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.41
+    - 1.0
+  pmos4_fast_dmy_nf2:
+    pins:
+      D0:
+        layer:
+        - Metal1
+        - label
+        netname: D0
+        xy0:
+        - 0.165
+        - 0.235
+        xy1:
+        - 0.245
+        - 0.595
+      G0:
+        layer:
+        - Metal1
+        - label
+        netname: G0
+        xy0:
+        - 0.115
+        - 0.73
+        xy1:
+        - 0.295
+        - 0.85
+      S0:
+        layer:
+        - Metal1
+        - label
+        netname: S0
+        xy0:
+        - -0.04
+        - 0.235
+        xy1:
+        - 0.04
+        - 0.595
+      S1:
+        layer:
+        - Metal1
+        - label
+        netname: S1
+        xy0:
+        - 0.37
+        - 0.235
+        xy1:
+        - 0.45
+        - 0.595
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.41
+    - 1.0
+  pmos4_fast_left:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  pmos4_fast_right:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  pmos4_fast_space:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  pmos4_fast_space_1x:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  pmos4_fast_space_2x:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.41
+    - 1.0
+  pmos4_fast_space_4x:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.82
+    - 1.0
+  pmos4_fast_space_nf2:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.41
+    - 1.0
+  pmos4_fast_space_nf4:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.82
+    - 1.0
+  pmos4_fast_tap:
+    pins:
+      TAP0:
+        layer:
+        - Metal1
+        - label
+        netname: TAP0
+        xy0:
+        - 0.37
+        - 0.235
+        xy1:
+        - 0.45
+        - 0.595
+      TAP1:
+        layer:
+        - Metal1
+        - label
+        netname: TAP1
+        xy0:
+        - 0.575
+        - 0.235
+        xy1:
+        - 0.655
+        - 0.595
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 1.025
+    - 1.0
+  ptap_fast_boundary:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  ptap_fast_center_nf1:
+    pins:
+      TAP0:
+        layer:
+        - Metal1
+        - label
+        netname: TAP0
+        xy0:
+        - -0.04
+        - 0.235
+        xy1:
+        - 0.04
+        - 0.595
+      TAP1:
+        layer:
+        - Metal1
+        - label
+        netname: TAP1
+        xy0:
+        - 0.165
+        - 0.235
+        xy1:
+        - 0.245
+        - 0.595
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  ptap_fast_center_nf2:
+    pins:
+      TAP0:
+        layer:
+        - Metal1
+        - label
+        netname: TAP0
+        xy0:
+        - -0.04
+        - 0.235
+        xy1:
+        - 0.04
+        - 0.595
+      TAP1:
+        layer:
+        - Metal1
+        - label
+        netname: TAP1
+        xy0:
+        - 0.165
+        - 0.235
+        xy1:
+        - 0.245
+        - 0.595
+      TAP2:
+        layer:
+        - Metal1
+        - label
+        netname: TAP2
+        xy0:
+        - 0.37
+        - 0.235
+        xy1:
+        - 0.45
+        - 0.595
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.41
+    - 1.0
+  ptap_fast_left:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  ptap_fast_right:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  ptap_fast_space:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.205
+    - 1.0
+  ptap_fast_space_nf2:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.41
+    - 1.0
+  ptap_fast_space_nf4:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.82
+    - 1.0
+  via_M1_M2_0:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.0
+    - 0.0
+  via_M1_M2_1:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.0
+    - 0.0
+  via_M2_M3_0:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.0
+    - 0.0
+  via_M2_M3_1:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.0
+    - 0.0
+  via_M2_M3_2:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.0
+    - 0.0
+  via_M3_M4_0:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.0
+    - 0.0
+  via_M5_M6_0:
+    pins: {}
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.0
+    - 0.0

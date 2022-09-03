@@ -1,0 +1,9 @@
+[submodule "gpdk045"]
+	path = gpdk045
+	url = https://github.com/niftylab/gpdk045.git
+[submodule "BAG_framework"]
+	path = BAG_framework
+	url = https://github.com/niftylab/BAG_framework.git
+[submodule "laygo2"]
+	path = laygo2
+	url = https://github.com/niftylab/laygo2.git
