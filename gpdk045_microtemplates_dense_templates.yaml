@@ -490,6 +490,47 @@ gpdk045_microtemplates_dense:
     xy1:
     - 0.41
     - 1.0
+  ntap_fast_center_nf2_v2:
+    pins:
+      TAP0:
+        layer:
+        - Metal1
+        - label
+        netname: TAP0
+        xy0:
+        - -0.04
+        - 0.235
+        xy1:
+        - 0.04
+        - 0.595
+      TAP1:
+        layer:
+        - Metal1
+        - label
+        netname: TAP1
+        xy0:
+        - 0.165
+        - 0.235
+        xy1:
+        - 0.245
+        - 0.595
+      TAP2:
+        layer:
+        - Metal1
+        - label
+        netname: TAP2
+        xy0:
+        - 0.37
+        - 0.235
+        xy1:
+        - 0.45
+        - 0.595
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.41
+    - 1.0
   ntap_fast_left:
     pins: {}
     xy0:
@@ -909,6 +950,47 @@ gpdk045_microtemplates_dense:
     - 0.205
     - 1.0
   ptap_fast_center_nf2:
+    pins:
+      TAP0:
+        layer:
+        - Metal1
+        - label
+        netname: TAP0
+        xy0:
+        - -0.04
+        - 0.235
+        xy1:
+        - 0.04
+        - 0.595
+      TAP1:
+        layer:
+        - Metal1
+        - label
+        netname: TAP1
+        xy0:
+        - 0.165
+        - 0.235
+        xy1:
+        - 0.245
+        - 0.595
+      TAP2:
+        layer:
+        - Metal1
+        - label
+        netname: TAP2
+        xy0:
+        - 0.37
+        - 0.235
+        xy1:
+        - 0.45
+        - 0.595
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.41
+    - 1.0
+  ptap_fast_center_nf2_v2:
     pins:
       TAP0:
         layer:
