@@ -5,6 +5,6 @@ DEFINE bag_testbenches $BAG_WORK_DIR/bag_testbenches/bag_testbenches
 
 #primitive templates
 DEFINE gpdk045_microtemplates_dense $BAG_WORK_DIR/gpdk045_microtemplates_dense
-DEFINE logic_templates $BAG_WORK_DIR/laygo/generators/logic/logic_templates
+DEFINE logic_templates $BAG_WORK_DIR/laygo2/generators/logic/logic_templates
 
 
