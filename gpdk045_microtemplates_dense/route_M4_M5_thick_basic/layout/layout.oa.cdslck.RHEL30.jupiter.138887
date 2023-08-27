@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      jdhan
+HostName                       jupiter
+ProcessIdentifier              138887
+ProcessCreationTime_UTC        1693107178
+ProcessCreationTime_Readable   Sun Aug 27 12:32:58 2023 KST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /mnt/jupiter/WORK_jupiter/jdhan/training/bag_workspace_gpdk045/gpdk045_microtemplates_dense/route_M4_M5_thick_basic/layout/layout.oa.cdslck
+TimeEditLocked                 Sun Aug 27 17:25:48 2023 KST
