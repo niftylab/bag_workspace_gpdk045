@@ -4,3 +4,4 @@ BAG_prim $BAG_TECH_CONFIG_DIR/DesignModules
 #bag_testbenches $BAG_WORK_DIR/bag_testbenches/BagModules
 logic_templates $BAG_WORK_DIR/laygo2_generators_private/logic/BagModules
 idac_templates $BAG_WORK_DIR/laygo2_generators_private/dac/idac/BagModules
+scan_templates $BAG_WORK_DIR/laygo2_generators_private/scan/BagModules
