@@ -7,5 +7,9 @@ DEFINE bag_testbenches $BAG_WORK_DIR/bag_testbenches/bag_testbenches
 DEFINE gpdk045_microtemplates_dense $BAG_WORK_DIR/gpdk045_microtemplates_dense
 DEFINE logic_templates $BAG_WORK_DIR/laygo2_generators_private/logic/logic_templates
 DEFINE idac_templates $BAG_WORK_DIR/laygo2_generators_private/dac/idac/idac_templates
+DEFINE rdac_templates $BAG_WORK_DIR/laygo2_generators_private/dac/rdac/rdac_templates
 DEFINE scan_templates $BAG_WORK_DIR/laygo2_generators_private/scan/scan_templates
 DEFINE des_templates $BAG_WORK_DIR/laygo2_generators_private/serdes/des/des_templates
+DEFINE level_shifter_templates $BAG_WORK_DIR/laygo2_generators_private/level_shifter/level_shifter_templates
+DEFINE freqdiv_templates $BAG_WORK_DIR/laygo2_generators_private/freqdiv/freqdiv_templates
+DEFINE adc_readout_templates $BAG_WORK_DIR/laygo2_generators_private/adc_readout/adc_readout_templates
