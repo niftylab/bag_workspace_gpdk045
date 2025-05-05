@@ -2,12 +2,21 @@ BAG_prim $BAG_TECH_CONFIG_DIR/DesignModules
 #demo_templates $BAG_WORK_DIR/BAG_XBase_demo/BagModules
 #demo_testbenches $BAG_WORK_DIR/BAG_XBase_demo/BagModules
 #bag_testbenches $BAG_WORK_DIR/bag_testbenches/BagModules
+adc_sar_templates $BAG_WORK_DIR/laygo/generators/adc_sar_jdhan/BagModules
+clk_dis_templates $BAG_WORK_DIR/laygo/generators/adc_sar_jdhan/BagModules
 logic_templates $BAG_WORK_DIR/laygo2_generators_private/logic/BagModules
 idac_templates $BAG_WORK_DIR/laygo2_generators_private/dac/idac/BagModules
 rdac_templates $BAG_WORK_DIR/laygo2_generators_private/dac/rdac/BagModules
 scan_templates $BAG_WORK_DIR/laygo2_generators_private/scan/BagModules
-ser_templates $BAG_WORK_DIR/laygo2_generators_private/serdes/ser/BagModules
+serializer_templates $BAG_WORK_DIR/laygo2_generators_private/serializer/BagModules
 des_templates $BAG_WORK_DIR/laygo2_generators_private/serdes/des/BagModules
+drv_tailless_templates $BAG_WORK_DIR/laygo2_generators_private/serdes/drv_tailless/BagModules
 level_shifter_templates $BAG_WORK_DIR/laygo2_generators_private/level_shifter/BagModules
-freqdiv_templates $BAG_WORK_DIR/laygo2_generators_private/freqdiv/BagModules
+#freqdiv_templates $BAG_WORK_DIR/laygo2_generators_private/freqdiv/BagModules
+clkdiv_templates $BAG_WORK_DIR/laygo2_generators_private/clkdiv/BagModules
 adc_readout_templates $BAG_WORK_DIR/laygo2_generators_private/adc_readout/BagModules
+comp_templates $BAG_WORK_DIR/laygo2_generators_private/serdes/comp/BagModules
+tbadc_templates $BAG_WORK_DIR/laygo2_generators_private/tbadc/BagModules
+drv_vm_templates $BAG_WORK_DIR/laygo2_generators_private/serdes/drv_vm/BagModules
+
+driver_templates $BAG_WORK_DIR/laygo2_generators_private/driver/BagModules
