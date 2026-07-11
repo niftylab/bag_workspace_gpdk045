@@ -1,0 +1,11 @@
+export_template:
+  target: json
+import_template:
+  target: json
+export:
+  target: bag
+  bag:
+    remote_control:
+      enable: false
+      host:
+      workspace_path:

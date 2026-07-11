@@ -1,1 +1,63 @@
-gpdk045/workspace_setup/.gitignore
+# python/IDE files
+*.pyc
+__pycache__
+.idea
+
+# misc edit/log files
+*~
+*.log
+IPOPT.out
+
+# misc BAG files
+BAG_server_port.txt
+BAG_sim_server_port.txt
+data
+
+# misc configuration/history files
+.ipython
+.jupyter
+.ipynb_checkpoints
+
+# generated files/directories
+calibre_run
+gen_libs
+pvs_run
+rundir_drc
+rundir_lvs
+cds.lib
+laygo2_config.yaml
+BAGTMP
+
+# cadence files
+.cadence
+*.cdslck
+.calibreviewsetup
+.tmp_*
+libManager.log.*
+
+# calibre files
+.cgidrcdb
+.cgilvsdb
+calibreview.setup
+
+# pvs files
+.QRC.run
+.preRcx.Last.State
+.qrc.Last.state
+
+# assura
+.assura*
+.lvs*
+.drc*
+.cds_assuraui
+
+# laygo files
+adc_sar*
+*logic_templates*
+laygo_working
+*.gds
+serdes_generated*
+laygo
+laygo2_generators_private
+logic_generated*
+jdskill
