@@ -5,6 +5,9 @@ import_template:
 export:
   target: bag
   bag:
+    scale: 0.001
+    reset_library: false
+    tech_library: gpdk045
     remote_control:
       enable: false
       host:
