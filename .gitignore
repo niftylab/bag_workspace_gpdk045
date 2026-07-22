@@ -61,3 +61,6 @@ laygo
 laygo2_generators_private
 logic_generated*
 jdskill
+
+# Generated output directories at workspace root
+/*_generated/
